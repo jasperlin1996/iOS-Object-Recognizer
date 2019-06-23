@@ -12,6 +12,11 @@
 		8E22ED1022B9155700790413 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E22ED0E22B9155700790413 /* Main.storyboard */; };
 		8E22ED1222B9155800790413 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E22ED1122B9155800790413 /* Assets.xcassets */; };
 		8E22ED1522B9155800790413 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E22ED1322B9155800790413 /* LaunchScreen.storyboard */; };
+		8E22ED2822BCC49500790413 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8E22ED2722BCC49500790413 /* Resnet50.mlmodel */; };
+		8EAB698322BCD07B001F71F9 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAB698222BCD07B001F71F9 /* TableViewController.swift */; };
+		8EAB698522BE44FA001F71F9 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8EAB698422BE44FA001F71F9 /* Inceptionv3.mlmodel */; };
+		8EAB698722BE741A001F71F9 /* ClassifiedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAB698622BE741A001F71F9 /* ClassifiedData.swift */; };
+		8EAB698D22BE913D001F71F9 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAB698C22BE913D001F71F9 /* HistoryTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		8E22ED1122B9155800790413 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E22ED1422B9155800790413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E22ED1622B9155800790413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E22ED2722BCC49500790413 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		8EAB698222BCD07B001F71F9 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		8EAB698422BE44FA001F71F9 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		8EAB698622BE741A001F71F9 /* ClassifiedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassifiedData.swift; sourceTree = "<group>"; };
+		8EAB698C22BE913D001F71F9 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,11 @@
 				8E22ED0A22B9155700790413 /* AppDelegate.swift */,
 				8E22ED0C22B9155700790413 /* ViewController.swift */,
 				8E22ED0E22B9155700790413 /* Main.storyboard */,
+				8EAB698222BCD07B001F71F9 /* TableViewController.swift */,
+				8EAB698C22BE913D001F71F9 /* HistoryTableViewCell.swift */,
+				8EAB698622BE741A001F71F9 /* ClassifiedData.swift */,
+				8EAB698422BE44FA001F71F9 /* Inceptionv3.mlmodel */,
+				8E22ED2722BCC49500790413 /* Resnet50.mlmodel */,
 				8E22ED1122B9155800790413 /* Assets.xcassets */,
 				8E22ED1322B9155800790413 /* LaunchScreen.storyboard */,
 				8E22ED1622B9155800790413 /* Info.plist */,
@@ -135,7 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EAB698722BE741A001F71F9 /* ClassifiedData.swift in Sources */,
+				8E22ED2822BCC49500790413 /* Resnet50.mlmodel in Sources */,
+				8EAB698D22BE913D001F71F9 /* HistoryTableViewCell.swift in Sources */,
+				8EAB698522BE44FA001F71F9 /* Inceptionv3.mlmodel in Sources */,
 				8E22ED0D22B9155700790413 /* ViewController.swift in Sources */,
+				8EAB698322BCD07B001F71F9 /* TableViewController.swift in Sources */,
 				8E22ED0B22B9155700790413 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,7 +303,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3HTG3Q5F68;
 				INFOPLIST_FILE = final/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +322,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3HTG3Q5F68;
 				INFOPLIST_FILE = final/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
